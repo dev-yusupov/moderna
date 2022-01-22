@@ -79,6 +79,9 @@ nav .nav-button {
 .mt-3 {
 	margin-top: 20px;
 }
+.mt-4 {
+	margin-top: 60px;
+}
 .mb-1 {
 	margin-bottom: 150px;
 }
@@ -87,6 +90,9 @@ nav .nav-button {
 }
 .mb-3 {
 	margin-bottom: 20px;	
+}
+.mb-4 {
+	margin-bottom: 60px;
 }
 /* paddings */
 .p-1 {
@@ -273,4 +279,29 @@ nav .nav-button {
 /* Accordion */
 .accordion {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.accordion .accordion-title h1 {
+	font-size: 50px;
+}
+.accordion .accordion-p p {
+	font-size: 23px;
+}
+.accordion .accordion-boxes {
+	text-align: left;
+} 
+.accordion .accordion-boxes .accordion-box {
+	max-width: 750px;
+	border-bottom: 1px solid rgba(200,200,200,0.7);
+	padding: 20px 30px;
+}
+.accordion .accordion-boxes .accordion-box .accordion-box-title h3 {
+	font-size: 30px;
+	font-weight: 500;
+}
+.accordion .accordion-boxes .accordion-box .accordion-box-message {
+	margin-top: 20px;
+	letter-spacing: 1px;
 }
