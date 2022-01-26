@@ -81,7 +81,7 @@ a.filled-button {
 	height: 2px;
 	margin-top: 5px;
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
 	.container {
 	display: flex;
 	flex-direction: column;
@@ -108,26 +108,25 @@ a.filled-button {
 }
 /* Margins */
 .ml-1 {
-	margin-left: 130px;
+	margin-left: 20px;
 }
 .ml-2 {
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
 .mt-1 {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 /* Paddings */
 
 /* Navigation Bar */
 .navbar {
-	display: flex;
-	flex-direction: row;
 	z-index: 3;
+	width: 800px;
 }
 .navbar .logo-section img{
-	height: 70px;
+	height: 90px;
 }
 .navbar .nav-items {
 	text-align: center;
@@ -137,8 +136,7 @@ a.filled-button {
 .nav-items-active {
 	display: initial;
 	position: absolute;
-	left: 0;
-	right: 0;
+	width: 100%;
 	margin: auto;
 	margin-top: 70px;
 	background: white;
@@ -156,7 +154,7 @@ a.filled-button {
 	font-weight: 600;
 }
 .navbar .nav-button {
-	margin-left: 270px;
+	margin-left: 460px;
 }
 .navbar .hamburger {
 	display: initial;
