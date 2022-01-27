@@ -89,7 +89,7 @@ a.filled-button {
 		border-radius: 30px;
 		color: white;
 		text-decoration: none;
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.container {
@@ -117,14 +117,14 @@ a.filled-button {
 	padding: 0px;
 }
 .navbar .logo-section img {
-	height: 50px;
+	height: 80px;
 	margin-top: initial;
 }
 .navbar .nav-items {
 	display: none;
 }
 	.navbar .nav-button {
-		margin-left: 200px;
+		margin-left: 500px;
 	}
 	.navbar .hamburger {
 		margin-left: 10px;
