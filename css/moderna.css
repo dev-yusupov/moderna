@@ -105,7 +105,7 @@ a.filled-button {
 
 /* margin-top */
 .mt-1 {
-	margin-top: 7px;
+	margin-top: 10px;
 }
 .mt-2 {
 	margin-top: 15px;
@@ -124,7 +124,7 @@ a.filled-button {
 	display: none;
 }
 	.navbar .nav-button {
-		margin-left: 500px;
+		margin-left: 400px;
 	}
 	.navbar .hamburger {
 		margin-left: 10px;
