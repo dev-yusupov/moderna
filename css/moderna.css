@@ -412,7 +412,7 @@ nav .hamburger div {
 	margin-left: 40px;
 }
 .mt-1 {
-	margin-top: 150px;
+	margin-top: 60px;
 }
 .mt-2 {
 	margin-top: 40px;
@@ -424,10 +424,10 @@ nav .hamburger div {
 	margin-top: 60px;
 }
 .mb-1 {
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 .mb-2 {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 .mb-3 {
 	margin-bottom: 20px;	
@@ -443,10 +443,10 @@ nav .hamburger div {
 	padding: 60px;
 }
 .pt-1 {
-	padding-top: 100px;	
+	padding-top: 50px;	
 }
 .pb-1 {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 /* Main Menu */
 .main-section {
@@ -469,7 +469,7 @@ nav .hamburger div {
 	font-size: 20px;
 }
 .main-section .mockup-for-main-section {
-	margin-top: 100px;
+	margin-top: 0px;
 }
 .main-section .mockup-for-main-section img {
 	width: 350px;
@@ -506,10 +506,10 @@ nav .hamburger div {
 }
 
 .components .components-title h1{
-	font-size: 50px;
+	font-size: 30px;
 }
 .components .component-p p {
-	font-size: 23px;
+	font-size: 18px;
 }
 .components .vertical-components {
 	flex-direction: column;
@@ -588,7 +588,7 @@ nav .hamburger div {
 	text-align: center;
 }
 .testimonial .testimonial-title h1 {
-	font-size: 50px;
+	font-size: 30px;
 	color: white;
 }
 .testimonial .message-moderna {
@@ -597,17 +597,15 @@ nav .hamburger div {
 	justify-content: center;
 }
 .testimonial .message-moderna .message-box {
-	background: rgb(220,220,220);
-	width: 500px;
-	text-align: left;
-	border-radius: 20px;
-	padding: 10px;
+	width: 600px;
+	padding: 7px;
 }
 .testimonial .message-moderna .message-box h3 {
-	font-size: 17px;
+	font-size: 16px;
 }
 .testimonial .message-moderna .message-box p {
-	line-height: 19px;
+	line-height: 14px;
+	line-height: 20px;
 }
 .testimonial img {
 	height: 50px;
@@ -664,12 +662,13 @@ footer {
 	display: flex;
 	padding: 5px 20px;
 	flex-direction: column;
+	align-items: center;
 }
 footer .text-section {
 	max-width: 100%;
 }
 footer p {
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 30px;
 }
 footer ul li {
