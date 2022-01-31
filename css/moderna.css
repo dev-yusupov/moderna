@@ -290,6 +290,7 @@ nav .hamburger div {
 .about-author {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 .about-author .author-p {
 	text-align: left;
@@ -303,6 +304,7 @@ nav .hamburger div {
 .about-author .image-section img {
 	border-radius: 50%;
 	height: 400px;
+	margin-left: 70px;
 }
 
 /* how-to-start */
@@ -620,19 +622,24 @@ nav .hamburger div {
 .about-author {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding: 0px 20px;
 }
 .about-author .author-p {
 	text-align: left;
-	font-size: 24px;
-	max-width: 600px;
-	line-height: 30px;
+	font-size: 19px;
+	line-height: 20px;
 }
 .about-author .title {
 	 font-size: 25px;
+	 line-height: 40px;
 }
 .about-author .image-section img {
 	border-radius: 50%;
 	height: 400px;
+	margin-left: 0px;
+	margin-top: 30px;
 }
 
 /* how-to-start */
@@ -655,11 +662,11 @@ nav .hamburger div {
 footer {
 	background: rgb(200,200,200);
 	display: flex;
-	padding: 70px 200px;
+	padding: 5px 20px;
 	flex-direction: column;
 }
 footer .text-section {
-	max-width: 400px;
+	max-width: 100%;
 }
 footer p {
 	font-size: 23px;
