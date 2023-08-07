@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const navItems = document.querySelector('.nav-items');
 const nav = document.querySelector('#nav');
+const xSign = document.querySelector(".x-sign");
 
 //Function for Toggling Classes in this project
 function toggleClass(element, className, existingClass) {
@@ -14,6 +15,9 @@ function toggleClass(element, className, existingClass) {
 }
 
 hamburger.onclick = function () {
+	toggleClass(navItems, 'nav-items-active', 'nav-items');
+}
+xSign.onclick = () => {
 	toggleClass(navItems, 'nav-items-active', 'nav-items');
 }
 
